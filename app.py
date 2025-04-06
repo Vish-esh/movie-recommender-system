@@ -31,7 +31,7 @@ similarity=pickle.load(open('similarity.pkl','rb'))
 st.title('Movie recommender system')
 
 selected_movie_name = st.selectbox(
-'How would you like to be contacted',
+'Select the movie',
 movies['title'].values)
 
 if st.button('Show Recommendation'):
